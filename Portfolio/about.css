@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(71, 71, 71);
+    overflow-y: scroll;
+    display: flex;
+}
+
+/* Sidebar */
+img{
+    margin: 17px;
+    padding: 10px;
+    width: 240px;
+    height: 200px;
+    border-radius: 50px;
+}
+.sidebar{
+    min-width: 320px;
+    margin: 20px;
+    background-color: rgb(44, 43, 43);
+    padding: 25px;
+    color: white;
+    height: 170vh;
+    border-radius: 25px;
+}
+.title{
+    display: flex;
+}
+.bi-envelope{
+    color: rgb(255, 145, 0);
+
+}
+.bi-phone{
+    color: rgb(255, 145, 0);
+
+}
+.bi-calendar-check{
+    color: rgb(255, 145, 0);
+
+}
+.bi-geo-alt-fill{
+    color: rgb(255, 145, 0);
+}
+h3{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+    padding-bottom: 22px;
+    border-bottom: 2px solid rgb(209, 206, 206);
+}
+.about a{
+    text-decoration: none;
+    color: white;
+}
+.about{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about i{
+    margin: 12px;
+}
+.email{
+    padding-top: 15px;
+}
+.email p{
+    font-size: 15px;
+}
+.about p{
+    margin-top: 12px;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+    gap: 42px;
+    font-size: 35px;
+}
+.socialMedia a{
+  color: white;
+}
+.bi-facebook:hover{
+    cursor: pointer;
+    color:rgb(90, 127, 247);
+}
+.bi-github:hover{
+    cursor: pointer;
+    color:rgb(245, 83, 83);
+}
+.bi-instagram:hover{
+    cursor: pointer;
+    color:rgb(170, 5, 129);
+}
+a:active{
+    transform: scale(.9);
+}
+#about{
+    color: rgb(255, 145, 0);
+}
+
+
+/* Information */
+.container-one{
+    background-color: rgb(44, 43, 43);
+    min-width: 110px;
+    margin: 20px;
+    height: 170vh;
+    border-radius: 22px;
+}
+.aboutMe{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.aboutMe p {
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.aboutMe h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(250, 174, 33);
+}
+.nav-about{
+ margin-top: 1rem;
+}
+#span{
+    color: rgb(139, 139, 138);
+    margin-left: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar a {
+ margin-right: 20px;
+ color: rgb(139, 139, 138);
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar a:hover{
+    color: rgb(255, 145, 0);
+}
+.container h1{
+    margin-top: 2rem;
+    color: rgb(255, 145, 0);
+    font-size: 32px;
+    font-family:'Courier New', Courier, monospace ;
+}
+.container p{
+    color: rgb(230, 213, 213);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.hobbies h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(250, 174, 33);
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+
+}
+.boxes .box{
+   margin-top: 2rem;
+   width: 450px;
+   height: 150px;
+   border-radius: 22px;
+   box-shadow: 1px 3px 25px 2px rgb(0, 0, 0);
+
+}
+.boxes i{
+    font-size: 40px;
+    margin-left: 1rem;
+}
+.boxes p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin: 5px;
+    height: 80px;
+}
+.bi-controller{
+    color: aqua;
+}
+.bi-person-walking{
+    color: rgb(43, 226, 58);
+}
+.bi-music-note-list{
+    color: rgb(16, 0, 241);
+}
+.bi-film{
+    color: rgb(248, 226, 30);
+}
+.bi-emoji-laughing{
+    color: rgb(84, 252, 196);
+}
+.box:hover{
+    cursor: pointer;
+    box-shadow: 1px 3px 25px 2px rgb(119, 119, 119);
+}
